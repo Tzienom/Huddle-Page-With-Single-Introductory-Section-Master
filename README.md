@@ -37,9 +37,9 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-huddle-single-lading-page-using-css-flexbox-eGc6w2pb_z](https://www.frontendmentor.io/solutions/responsive-huddle-single-lading-page-using-css-flexbox-eGc6w2pb_z)
 
-- Live Site URL: []()
+- Live Site URL: [https://tzienom-huddle-single-page.netlify.app/](https://tzienom-huddle-single-page.netlify.app/)
 
 
 # My Process
