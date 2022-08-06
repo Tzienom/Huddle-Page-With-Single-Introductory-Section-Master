@@ -1,0 +1,46 @@
+@media(min-width: 887px) {
+    
+    body {
+        background-image: url("../images/bg-desktop.svg");
+        font-size: 1.3125rem;
+    }
+    
+    header img { width: 264px; }
+    
+}
+
+
+@media(min-width: 1200px) {
+    
+    .container {
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+    
+    .wrapper {
+        width: 1440px;
+        margin: 0 auto;
+    }
+    
+    
+    /* MAIN */
+    
+    main .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .main-text { 
+        width: 40%;
+        text-align: left;
+        margin-top: 7rem;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .icon + .icon { margin-left: 1rem; }
+    
+}

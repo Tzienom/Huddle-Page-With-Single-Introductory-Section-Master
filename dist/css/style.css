@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: var(--violet) url("../images/bg-mobile.svg") no-repeat fixed;
+    background-clip: padding-box;
+    background-size: contain;
+    color: white;
+}
+
+
+/* GENERAL */
+
+h1 { 
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+img { 
+    max-width: 100%;
+    display: block;
+}
+
+.container { margin: 2rem; }
+
+
+/* HEADER */
+
+header img { width: 150px; }
+
+
+/* MAIN */
+
+main img { 
+    margin: 4rem auto; 
+}
+
+.main-text {
+    text-align: center;
+}
+
+.main-text p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+#register {
+    display: inline-block;
+    padding: .7em 4em;
+    border-radius: 50px;
+    background: white;
+    color: var(--violet);
+    text-decoration: none;
+    box-shadow: 1px 1px 7px 1px hsla(0, 0%, 0%, .5);
+}
+
+#register:hover { 
+    background: var(--soft-magenta);
+    color: white;
+}
+
+
+/* ICONS */
+.icons  { margin: 4rem 0 0; }
+
+.icons a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.icons a:hover { color: var(--soft-magenta); }
+
+.icon + .icon { margin-left: .5rem; }
+
+ion-icon { font-size: 2rem; }
